@@ -1,0 +1,1 @@
+.gallery_section__block{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[8];grid-template-columns:repeat(8, 1fr);-ms-grid-rows:(5vw)[8];grid-template-rows:repeat(8, 5vw);grid-gap:15px}
