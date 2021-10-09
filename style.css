@@ -14,14 +14,16 @@ body{
 }
 .nav__block{
     position: absolute;
-    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 2;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .nav__block2{
     position: absolute;
-    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 2;
     margin: 0 auto;
     margin-top: 310px;
@@ -45,11 +47,6 @@ body{
 }
 .gallery_section{
     width: 100%;
-}
-.gallery_section__box{
-}
-.gallery_section__box-zi4{
-    z-index: 4;
 }
 .gallery_section__img{
     width: 100%;

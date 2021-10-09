@@ -9,6 +9,7 @@ for (var i = 0; i < images.length; i++) {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
+    document.documentElement.style.overflow = 'hidden';
   }
 }
 
@@ -16,4 +17,5 @@ var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
   modal.style.display = "none";
+  document.documentElement.style.overflow = 'auto';
 }
